@@ -1,4 +1,4 @@
-# usePy
+# util
 A python module for useful python constants and functions
 Functions are efficient and constants are highly accurate
 
