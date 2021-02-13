@@ -7,6 +7,8 @@ Functions are efficient and constants are highly accurate
 - getFactors
 - product of list
 - fibbonacci
+- gcd
+- lcd
 - euler's constant
 - pi
 - lowercase alphabet list
