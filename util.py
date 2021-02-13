@@ -42,3 +42,17 @@ def fib(n):
   for i in range(2, n):
     fibs.append(fibs[-1] + fibs[-2])
   return fibs
+
+def gcd(a, b):
+  if a==0 or b==0:
+    return a+b
+  else:
+    l=[a,b]
+    m=min(l)
+    M=max(l)
+    return gcd(M%m,m)
+  
+def lcm(a, b):
+  return abs(a*b)//gcd(a,b)
+
+
